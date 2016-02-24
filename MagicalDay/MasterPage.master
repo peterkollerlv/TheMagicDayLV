@@ -1,0 +1,212 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Magical Day</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="mdJavaScript.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="MasterPageStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="DefaultStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="GalleryStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="AboutStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="ContactStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="ShopStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="MailSentStyle.css"/>
+    	<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+
+    	   if (document.images) {
+    	       
+               img1 = new Image();
+    	        img2 = new Image();
+    	        img3 = new Image();
+    	        img4 = new Image();
+    	        img5 = new Image();
+    	        img6 = new Image();
+    	        img7 = new Image();
+    	        img8 = new Image();
+    	        img9 = new Image();
+    	        img10 = new Image();
+    	        img11 = new Image();
+    	        img12 = new Image();
+    	        img13 = new Image();
+    	        img14 = new Image();
+    	        img15 = new Image();
+    	        img16 = new Image();
+    	        img17 = new Image();
+    	        img18 = new Image();
+    	        img19 = new Image();
+    	        img20 = new Image();
+    	        img21 = new Image();
+    	        img22 = new Image();
+    	        img23 = new Image();
+    	        img24 = new Image();
+    	        img25 = new Image();
+    	        img26 = new Image();
+    	        img27 = new Image();
+    	        img28 = new Image();
+    	        img29 = new Image();
+    	        img30 = new Image();
+    	        img31 = new Image();
+    	        img32 = new Image();
+    	        img33 = new Image();
+    	        img34 = new Image();
+    	        img35 = new Image();
+    	        img36 = new Image();
+    	        img37 = new Image();
+    	        img38 = new Image();
+    	        img39 = new Image();
+    	        img40 = new Image();
+    	        img41 = new Image();
+    	        img42 = new Image();
+    	        img43 = new Image();
+    	        img44 = new Image();
+    	        img45 = new Image();
+    	        img46 = new Image();
+    	        img47 = new Image();
+    	        img48 = new Image();
+    	        img49 = new Image();
+    	        img50 = new Image();
+    	        img51 = new Image();
+    	        img52 = new Image();
+    	        img53 = new Image();
+    	        img54 = new Image();
+    	        img55 = new Image();
+    	        img56 = new Image();
+    	        img57 = new Image();
+    	        img58 = new Image();
+    	        img59 = new Image();
+    	        img60 = new Image();
+    	        img61 = new Image();
+    	        img62 = new Image();
+    	        img63 = new Image();
+    	        img64 = new Image();
+    	        img65 = new Image();
+    	        img66 = new Image();
+    	        img67 = new Image();
+    	        img68 = new Image();
+
+    	        img1.src = "lib/pic/gallery/IMG-20150107-WA0004.png";
+    	        img2.src = "lib/pic/gallery/IMG-20150107-WA0001.pngf";
+    	        img3.src = "lib/pic/gallery/IMG-20150107-WA0003.png";
+    	        img4.src = "lib/pic/gallery/IMG-20150107-WA0005.png";
+    	        img5.src = "lib/pic/gallery/IMG-20150107-WA0008.png";
+    	        img6.src = "lib/pic/gallery/IMG-20150107-WA0009.png";
+    	        img7.src = "lib/pic/gallery/IMG-20150107-WA0010.png";
+    	        img8.src = "lib/pic/gallery/IMG-20150107-WA0013.png";
+    	        img9.src = "lib/pic/gallery/IMG-20150107-WA0014.png";
+    	        img10.src = "lib/pic/gallery/IMG-20150107-WA0015.png";
+    	        img11.src = "lib/pic/gallery/IMG-20150107-WA0016.png";
+    	        img12.src = "lib/pic/gallery/IMG-20150107-WA0017.png";
+    	        img13.src = "lib/pic/gallery/IMG-20150107-WA0018.png";
+    	        img14.src = "lib/pic/gallery/IMG-20150107-WA0019.png";
+    	        img15.src = "lib/pic/gallery/IMG-20150108-WA0000.png";
+    	        img16.src = "lib/pic/gallery/IMG-20150108-WA0001.png";
+    	        img17.src = "lib/pic/gallery/IMG_2782.png";
+    	        img18.src = "lib/pic/gallery/IMG_2785.png";
+    	        img19.src = "lib/pic/gallery/IMG_2882.png";
+    	        img20.src = "lib/pic/gallery/IMG_2884.png";
+    	        img21.src = "lib/pic/gallery/IMG_2886.png";
+    	        img22.src = "lib/pic/gallery/IMG_2889.png";
+    	        img23.src = "lib/pic/gallery/IMG_2893.png";
+    	        img24.src = "lib/pic/gallery/IMG_2924.png";
+    	        img25.src = "lib/pic/gallery/IMG_2930.png";
+    	        img26.src = "lib/pic/gallery/IMG_2998.png";
+    	        img27.src = "lib/pic/gallery/IMG_3002.png";
+    	        img28.src = "lib/pic/gallery/IMG_3003.png";
+    	        img29.src = "lib/pic/gallery/IMG_3007.png";
+    	        img30.src = "lib/pic/gallery/IMG_3008.png";
+    	        img31.src = "lib/pic/gallery/IMG_3020.png";
+    	        img32.src = "lib/pic/gallery/IMG_3027.png";
+    	        img33.src = "lib/pic/gallery/IMG_3036.png";
+    	        img34.src = "lib/pic/gallery/IMG_3039.png";
+    	        img35.src = "lib/pic/gallery/IMG_3042.png";
+    	        img36.src = "lib/pic/gallery/IMG-20150127-WA0000.png";
+    	        img37.src = "lib/pic/gallery/IMG-20150127-WA0001.png";
+    	        img38.src = "lib/pic/gallery/IMG-20150127-WA0002.png";
+    	        img39.src = "lib/pic/MAG0014.png";
+    	        img40.src = "lib/pic/gallery/IMG-20150203-WA0000.png";
+    	        img41.src = "lib/pic/gallery/IMG-20150203-WA0001.png";
+    	        img42.src = "lib/pic/gallery/IMG-20150203-WA0002.png";
+    	        img43.src = "lib/pic/gallery/IMG-20150203-WA0003.png";
+    	        img44.src = "lib/pic/gallery/IMG-20150206-WA0000.png";
+    	        img45.src = "lib/pic/gallery/IMG-20150206-WA0001.png";
+    	        img46.src = "lib/pic/gallery/IMG-20150206-WA0002.png";
+    	        img47.src = "lib/pic/gallery/IMG-20150322-WA0000.png";
+    	        img48.src = "lib/pic/gallery/IMG-20150322-WA0001.png";
+    	        img49.src = "lib/pic/gallery/IMG-20150322-WA0002.png";
+    	        img50.src = "lib/pic/gallery/IMG-20150328-WA0000.png";
+    	        img51.src = "lib/pic/gallery/0216/20151109_063147.png";
+    	        img52.src = "lib/pic/gallery/0216/20151109_201537.png";
+    	        img53.src = "lib/pic/gallery/0216/20151109_203405.png";
+    	        img54.src = "lib/pic/gallery/0216/20151109_203513.png";
+    	        img55.src = "lib/pic/gallery/0216/20151109_203553.png";
+    	        img56.src = "lib/pic/gallery/0216/20151109_231131.png";
+    	        img57.src = "lib/pic/gallery/0216/20160202_122609.png";
+    	        img58.src = "lib/pic/gallery/0216/20160204_114158.png";
+    	        img59.src = "lib/pic/gallery/0216/20160207_130148.png";
+    	        img60.src = "lib/pic/gallery/0216/20160213_215449.png";
+    	        img61.src = "lib/pic/gallery/0216/20160213_215457.png";
+    	        img62.src = "lib/pic/gallery/0216/20160214_114235.png";
+    	        img63.src = "lib/pic/gallery/0216/20160214_120537.png";
+    	        img64.src = "lib/pic/gallery/0216/20160222_165415.png";
+    	        img65.src = "lib/pic/gallery/0216/20160222_165429.png";
+    	        img66.src = "lib/pic/gallery/0216/20160222_165449.png";
+    	        img67.src = "lib/pic/gallery/0216/20160222_165526.png";
+    	        img68.src = "lib/pic/gallery/0216/20160222_165542.png";
+    	 
+    	    }
+    	    
+		//--><!]]>
+	</script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="background">
+            <div id="masterPageBody">
+                <div id="headerBody">
+                    <div id="mdLogo">
+                        <a href="Default.aspx">
+                            <img id="mdLogoId" src="lib\pic\mdLogoSmallTransparent.png" /></a>
+                    </div>
+                    <div id="headerText">
+                        <%--                              <p>
+                        Hello @ Master Page - This site is under construction and it is being updated as it progressing. Hold steady... It will be awesome :)
+                    </p>--%>
+                    </div>
+                </div>
+
+                <div id="sideMenuLeft">
+                    <div id="sideMenuLeftText">
+                        <p>
+                            We proudly create elegant and unique hand-crafted wedding decorations to make
+                            your best-day-ever an even more memorable,
+                            <br />
+                            one-of-a-kind celebration!
+                        </p>
+                    </div>
+                </div>
+
+
+                <div id="sideMenuDiv">
+                    <%-- <input type="button" value="Debug" onclick="defaultProdSlide()" />--%>
+                    <nav id="sideMenu">
+                        <ul>
+                            <li class="li_button"><a href="Default.aspx">Home</a></li>
+                            <li class="li_button"><a href="Gallery.aspx">Gallery</a></li>
+                            <li class="li_button"><a href="About.aspx">About</a></li>
+                            <li class="li_button"><a href="Contact.aspx">Contact</a></li>
+                            <li class="li_button"><a href="Shop.aspx">Shop</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
