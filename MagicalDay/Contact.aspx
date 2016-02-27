@@ -35,7 +35,7 @@
                     <p>Maria Gavin</p> <br /> <br />
                     <h1>Phone Number: (702) 684-4920
                      <br />
-                    Email: TheMagicalDay@yahoo.com</h1>
+                    Email: maria@themagicdaylv.com</h1>
                     <br />
       
                 </div>
