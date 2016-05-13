@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Shop.aspx.cs" Inherits="Shop" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <title>Magical Day - Shop</title>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="centerContentBody">
@@ -25,8 +27,15 @@
                     </td>
                 </tr>
 
-
+                <tr>
+                    <td>
+                         <asp:Image ID="Image1" runat="server" style="vertical-align: bottom" ImageUrl="http://img.cyberhostbox.com/i.ashx?gallery=4755468&mid=100038624&mt=Photo&standardsize=640x480" Width="640" Height="480"/>
+                    </td>
+                </tr>
             </table>
+
+
+           
 
 
         </div>

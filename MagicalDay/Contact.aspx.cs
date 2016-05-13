@@ -19,13 +19,15 @@ public partial class Contact : System.Web.UI.Page
 
     protected void emlSubmit_Click(object sender, EventArgs e)
     {
+        try
+        {
         bool nameValid;
         bool emailValid;
         bool subjectValid;
         bool emlMsgValid;
         MailMessage mailObj = new MailMessage();
-        mailObj.From = new MailAddress("no-reply@cyberhostbox.info");
-        mailObj.To.Add("themagicalday@yahoo.com");
+        mailObj.From = new MailAddress("themagicdaylv@cyberhostbox.com");
+        mailObj.To.Add("fwa-themagicdaylv@cyberhostbox.com");
         mailObj.Subject = "New message from MagicalDay, From " + txtName.Text + ", Sent @: " + DateTime.Now;
         mailObj.Body = "Name: " + txtName.Text + "<br /><br />Email: " + txtEmail.Text + "<br /><br />Sent at: " + DateTime.Now + "<br/><br/>Subject: " + txtSubject.Text + "<br /><br />Message:<br />" + emlMsg.Text;
         mailObj.IsBodyHtml = true;
@@ -105,14 +107,11 @@ public partial class Contact : System.Web.UI.Page
             Server.Transfer("MailSent.aspx");
         }
 
-        try
-        {
-            smtp.Send(mailObj);
+    
         }
         catch (Exception ex)
         {
-            Console.WriteLine("Exception caught in CreateTestMessage2(): {0}",
-                  ex.ToString());
+            Response.Write("<script LANGUAGE='JavaScript' >alert(" + ex.Message.ToString() + ")</script>");
         }
 
     }

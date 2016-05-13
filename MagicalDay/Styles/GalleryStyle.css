@@ -1,0 +1,370 @@
+﻿#gallerySlider {
+    position: relative;
+    /*background-color: blue;*/
+    width: 1000px;
+    height: 1300px;
+    z-index:50;
+    top: 20px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    visibility: hidden;
+    /*border-radius: 50px;*/
+}
+.galleryArrowsClass{
+    position:absolute;
+    width:50px;
+    height:120px;
+    top:50px;
+    left:700px;
+    z-index:85;
+    margin:0px;
+    padding:0px;
+}
+
+.galleryArrowsToSide{
+    position:fixed;
+    width:50px;
+    height:120px;
+    top:10px;
+    right:200px;
+    z-index:85;
+    margin:0px;
+    padding:0px;
+}
+
+#galleryUpArrow {
+    position: absolute;
+    box-shadow: 3px 3px 5px #888888;
+    background-color: #f5b2d7;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    z-index: 85;
+    opacity: 0.4;
+    border-radius: 50px;
+}
+#galleryUpArrowTop{
+        position: absolute;
+    /*box-shadow: 3px 3px 5px #888888;*/
+    background-color: #f5b2d7;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    z-index: 90;
+    opacity: 0.01;
+    border-radius: 50px;
+}
+
+    #galleryUpArrow p {
+        position: absolute;
+        left: 12px;
+        top: -55px;
+        z-index:85;
+        color: #AE69B2;
+        opacity: 0.7;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    #galleryDownArrow {
+    position: absolute;
+    box-shadow: 3px 3px 5px #888888;
+    background-color: #f5b2d7;
+    width: 50px;
+    height: 50px;
+    top: 70px;
+    left: 0px;
+    z-index: 85;
+    opacity: 0.4;
+    border-radius: 50px;
+}
+#galleryDownArrowTop{
+        position: absolute;
+      background-color: #f5b2d7;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 0;
+    z-index: 90;
+    opacity: 0.01;
+    border-radius: 50px;
+}
+
+    #galleryDownArrow p {
+        position: absolute;
+        left: 12px;
+        top: -55px;
+        z-index:85;
+        color: #AE69B2;
+        opacity: 0.6;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+#gallerySideStrip {
+    position: absolute;
+    background-color: #FFE6F0;
+    width: 230px;
+    height: 900px;
+    z-index:85;
+    top: 95px;
+    right: 0px;
+    padding-right:0px;
+    border-radius: 20px;
+    
+}
+
+    #gallerySideStrip ul {
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        z-index:50;
+        bottom: 0px;
+        width: 230px;
+        height: 840px;
+        margin: 0px;
+        padding: 0px;
+        background-color: #FFE6F0;
+        border-radius: 20px;
+            overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-base-color:#FFE6F0;
+    scrollbar-face-color:#FFE6F0;  
+    scrollbar-shadow-color:#FFE6F0;
+    scrollbar-highlight-color:#FFE6F0;  
+    scrollbar-3dlight-color: #FFE6F0;  
+    scrollbar-darkshadow-color: #FFE6F0;  
+    scrollbar-track-color:#FFE6F0;  
+    scrollbar-arrow-color: #AE69B2;
+    }
+
+        #gallerySideStrip ul li {
+            position:relative;
+            width: 170px;
+            height: 170px;
+            margin: 10px;
+            right: -25px;
+            z-index:50;
+            list-style: none;
+            display: list-item;
+            background-color: #F0F0FF;
+            border-radius: 20px;
+            box-shadow: 3px 3px 10px #888888;
+        }
+
+        .gallerSideStripSelected{
+           position:relative;
+           z-index:95 !important;
+             padding:5px;
+            right:5px !important;
+            width:180px !important;
+             height: 180px !important;
+            border: 3px solid #f5b2d7;
+        }
+
+        .gallerySideStripNonSelected{
+            position:relative;
+            right: -25px;
+            width: 170px;
+            height: 170px;
+            border: 0px;
+        }
+
+            #gallerySideStrip ul li img {
+                position: relative;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                z-index:55;
+                top: 50%;
+                transform: translate(0, -50%);
+                -webkit-transform: translate(0, -50%);
+                border-radius: 5px;
+                box-shadow: 3px 3px 10px #888888;
+            }
+
+#gallerySlideDiv {
+    position: absolute;
+    background-color: #FFE6F0;
+    z-index:70;
+    top: 30px;
+    left: 5px;
+    width: 770px;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+    #gallerySlideDiv ul {
+        position: absolute;
+        background-color: #FFE6F0;
+        z-index:80;
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        width: 770px;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+        #gallerySlideDiv ul li {
+            position: absolute;
+            list-style: none;
+            width: 700px;
+            height: 460px;
+            margin: 9px;
+            box-shadow: 3px 3px 10px #888888;
+        }
+
+
+            #gallerySlideDiv ul li img {
+                position: absolute;
+                padding: 0px;
+                border-radius: 20px;
+                display: block;
+                z-index:85;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                -webkit-transform: translate(-50%,-50%);
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+.minOpacity {
+    opacity: 0.00;
+}
+
+.maxOpacity {
+    opacity: 1.00;
+    transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+}
+
+.gallerySlideSlotOneLi {
+    position: absolute;
+    width: 700px;
+    height: 460px;
+    left: -100px;
+    top: 40px;
+    opacity: 0.3;
+    z-index: 70;
+    background-color:#F0F0FF;
+    border-radius: 20px;
+    transition: all 250ms linear;
+    -webkit-transition: all 250ms linear;
+    -moz-transition: all 250ms linear;
+    -o-transition: all 250ms linear;
+    -ms-transition: all 250ms linear;
+}
+
+.gallerySlideSlotOneLiReset{
+        position: absolute;
+    width: 700px;
+    height: 460px;
+    left: -100px;
+    top: 40px;
+    opacity: 0.3;
+    z-index: 70;
+    background-color:#F0F0FF;
+    border-radius: 20px;
+
+}
+
+.gallerySlideSlotTwoLi img {
+    box-shadow: 3px 3px 10px #888888;
+}
+
+.gallerySlideSlotTwoLi {
+    position: absolute;
+    width: 700px;
+    height: 460px;
+    left: 40px;
+    top: 160px;
+    opacity: 0.99;
+    z-index: 85;
+    border: 3px solid #f5b2d7;
+    background-color: #F0F0FF;
+    border-radius: 20px;
+    transition: all 250ms linear;
+    -webkit-transition: all 250ms linear;
+    -moz-transition: all 250ms linear;
+    -o-transition: all 250ms linear;
+    -ms-transition: all 250ms linear;
+}
+
+.gallerySlideSlotTwoLiReset{
+    position: absolute;
+    width: 700px;
+    height: 460px;
+    left: 40px;
+    top: 160px;
+    opacity: 0.99;
+    z-index: 80;
+    border: 3px solid #f5b2d7;
+    background-color: #F0F0FF;
+    border-radius: 20px;
+}
+
+.largePic{
+    position:fixed !important;
+    width:1000px !important;
+    height:700px !important;
+    background-color:#F0F0FF;
+    border: 1px solid #f5b2d7;
+    list-style: none;
+    display:block;
+    top:10px;
+    left:40%;
+    z-index:99 !important;
+    border-radius:25px;
+    transform:translate(-50%,0);
+    -webkit-transform:translate(-50%,0%);
+
+       transition: all 250ms linear;
+    -webkit-transition: all 250ms linear;
+    -moz-transition: all 250ms linear;
+    -o-transition: all 250ms linear;
+    -ms-transition: all 250ms linear;
+}
+
+.gallerySlideSlotThreeLi {
+    position: absolute;
+    width: 700px;
+    height: 460px;
+    left: -100px;
+    top: 450px;
+    opacity: 0.8;
+    z-index: 55;
+    background-color: #F0F0FF;
+    border-radius: 20px;
+    transition: all 250ms linear;
+    -webkit-transition: all 250ms linear;
+    -moz-transition: all 250ms linear;
+    -o-transition: all 250ms linear;
+    -ms-transition: all 250ms linear;
+}
+
+.gallerySlideSlotThreeLiReset{
+        position: absolute;
+    width: 700px;
+    height: 460px;
+    left: -100px;
+    top: 450px;
+    opacity: 0.8;
+    z-index: 55;
+    background-color: #F0F0FF;
+    border-radius: 20px;
+
+}
