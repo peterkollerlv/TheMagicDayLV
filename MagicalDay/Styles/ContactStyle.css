@@ -1,158 +1,157 @@
-﻿#contactBody{
+﻿#contactBody {
     position: relative;
     left: 50px;
     top: 40px;
-    width:950px;
-    height:1400px;
+    width: 950px;
+    height: 1400px;
 }
-#contactMainPic{
-    
-    left:0px;
-    top:50px;
-    border-radius:25px;
-    opacity:0.08;
-    z-index:55;
-    width:900px;
-    overflow:hidden;
-    transform:rotate(-4deg);
-    -webkit-transform:rotate(-4deg);
+
+#contactMainPic {
+    left: 0px;
+    top: 50px;
+    border-radius: 25px;
+    opacity: 0.08;
+    z-index: 55;
+    width: 900px;
+    overflow: hidden;
+    transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
     box-shadow: 3px 3px 10px #888888;
 }
 
-#contactTopPic{
-    position:absolute;
-   right:40px;
-      opacity:0.08;
-    z-index:55;
-    border-radius:25px;
-    transform:rotate(2deg);
-    -webkit-transform:rotate(2deg);
+#contactTopPic {
+    position: absolute;
+    right: 40px;
+    opacity: 0.08;
+    z-index: 55;
+    border-radius: 25px;
+    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
     box-shadow: 3px 3px 10px #888888;
-
 }
 
 
-#contactHeader{
-    position:absolute;
+#contactHeader {
+    position: absolute;
     left: 50%;
-    top:-20px;
-    width:600px;
-    z-index:70;
-    text-align:center;
+    top: -20px;
+    width: 600px;
+    z-index: 70;
+    text-align: center;
     transform: translate(-50%,0);
     -webkit-transform: translate(-50%,0);
-
 }
+
     #contactHeader p {
-        font-family: 'dancing_script_otregular';
+        font-family: 'dancingOtregular';
         font-size: 38px;
-        color: #8f476b;  /*AE69B2*/
+        color: #8f476b; /*AE69B2*/
     }
 
- #emailMe{
-        position:absolute;
-        z-index:70;
-        top:70px;
-        left:40px;
-        
- }
-    #emailMe p{
-                font-family: 'dancing_script_otregular';
-        font-size: 28px;
-        color: #8f476b;  /*AE69B2*/
-    }
-
-    #contactEmailTable{
-        z-index:70;
-        position:absolute;
-        top:150px;
-        left:0px;
-        margin:0px;
-        padding:0px;
-        border-collapse:collapse;
-        border-spacing:0;
-        
-    }
-
-#contactEmailTable p{
-     font-family:Andalus;
-     color:#8f476b;  /*AE69B2*/
-    margin:0px;
-    padding:0px;
+#emailMe {
+    position: absolute;
+    z-index: 70;
+    top: 70px;
+    left: 40px;
 }
 
-.contactTextBox{
-    z-index:70;
-    margin:10px;
-    padding:0px;
-    background-color:#F0F0FF;
-    border-radius:6px;
-    border:1px solid #f5b2d7;
-    font-family:Andalus;
-    padding:3px;
-}
-.contactTextBoxEmail{
-    z-index:70;
-    margin:10px;
-    padding:0px;
-    background-color:#F0F0FF;
-    border-top-left-radius:10px;
-    border-bottom-left-radius:10px;
-    border:1px solid #f5b2d7;
-        scrollbar-face-color:#FFE6F0;  
-    scrollbar-shadow-color:#FFE6F0;
-    scrollbar-highlight-color:#FFE6F0;  
-    scrollbar-3dlight-color: #FFE6F0;  
-    scrollbar-darkshadow-color: #FFE6F0;  
-    scrollbar-track-color:#F0F0FF;  
-    scrollbar-arrow-color: #AE69B2;
-    padding:10px;
-    font-family:Andalus;
-    
-}
-
-
-
-#contactEmailTable td{
-   z-index:70;
-
-        margin:0px;
-        padding:0px;
-}
-
-.submitButton{
-    font-family:Andalus;
-    border:1px solid #f5b2d7;
-    background-color:#F5A9E6;
-    box-shadow: 3px 3px 10px #888888;
-    border-radius:8px;
-    color:#AE69B2;
-}
-.submitButton:hover{
-    color: #CC0066;
-}
-
-#contactInfo{
-    position:absolute;
-    z-index:70;
-    width: 800px;
-    top:70px;
-    left: 400px;
-}
-#contactInfo p{
-    position:absolute;
-                    font-family: 'dancing_script_otregular';
+    #emailMe p {
+        font-family: 'dancingOtregular';
         font-size: 28px;
         color: #8f476b; /*AE69B2*/
+    }
 
+#contactEmailTable {
+    z-index: 70;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-#contactInfo h1{
-    position:absolute;
-    top:60px;
-    left:20px;
-         font-family:Andalus;
-         font-size:20px;
-     color:#8f476b; /*AE69B2*/
-    margin:0px;
-    padding:0px;
+
+    #contactEmailTable p {
+        font-family: Andalus;
+        color: #8f476b; /*AE69B2*/
+        margin: 0px;
+        padding: 0px;
+    }
+
+.contactTextBox {
+    z-index: 70;
+    margin: 10px;
+    padding: 0px;
+    background-color: #F0F0FF;
+    border-radius: 6px;
+    border: 1px solid #f5b2d7;
+    font-family: Andalus;
+    padding: 3px;
 }
+
+.contactTextBoxEmail {
+    z-index: 70;
+    margin: 10px;
+    padding: 0px;
+    background-color: #F0F0FF;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #f5b2d7;
+    scrollbar-face-color: #FFE6F0;
+    scrollbar-shadow-color: #FFE6F0;
+    scrollbar-highlight-color: #FFE6F0;
+    scrollbar-3dlight-color: #FFE6F0;
+    scrollbar-darkshadow-color: #FFE6F0;
+    scrollbar-track-color: #F0F0FF;
+    scrollbar-arrow-color: #AE69B2;
+    padding: 10px;
+    font-family: Andalus;
+}
+
+
+
+#contactEmailTable td {
+    z-index: 70;
+    margin: 0px;
+    padding: 0px;
+}
+
+.submitButton {
+    font-family: Andalus;
+    border: 1px solid #f5b2d7;
+    background-color: #F5A9E6;
+    box-shadow: 3px 3px 10px #888888;
+    border-radius: 8px;
+    color: #AE69B2;
+}
+
+    .submitButton:hover {
+        color: #CC0066;
+    }
+
+#contactInfo {
+    position: absolute;
+    z-index: 70;
+    width: 800px;
+    top: 70px;
+    left: 400px;
+}
+
+    #contactInfo p {
+        position: absolute;
+        font-family: 'dancingOtregular';
+        font-size: 28px;
+        color: #8f476b; /*AE69B2*/
+    }
+
+    #contactInfo h1 {
+        position: absolute;
+        top: 60px;
+        left: 20px;
+        font-family: Andalus;
+        font-size: 20px;
+        color: #8f476b; /*AE69B2*/
+        margin: 0px;
+        padding: 0px;
+    }

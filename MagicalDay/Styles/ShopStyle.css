@@ -27,7 +27,7 @@
 }
 
 #shopHeader p{
-    font-family: 'dancing_script_otregular';
+    font-family: 'dancingOtregular';
     font-size:38px;
     color:#8f476b; /*AE69B2*/
 }
@@ -42,12 +42,12 @@
 }
 
     #shopWelcome a {
-        font-family: 'dancing_script_otregular';
+        font-family: 'dancingOtregular';
         font-size: 28px;
         text-decoration: none;
     }
         #shopWelcome p {
-        font-family: 'dancing_script_otregular';
+        font-family: 'dancingOtregular';
         color: #8f476b; /*AE69B2*/
         font-size: 28px;
         text-decoration: none;
@@ -76,7 +76,7 @@
 }
 
 #shopTable p{
-        font-family: 'dancing_script_otregular';
+        font-family: 'dancingOtregular';
     font-size:26px;
     color:#8f476b; /*AE69B2*/
 }
@@ -89,7 +89,7 @@
     }
 
 #shopFeatured p{
-        font-family: 'dancing_script_otregular';
+        font-family: 'dancingOtregular';
     font-size:26px;
     color:#8f476b; /*AE69B2*/
 }

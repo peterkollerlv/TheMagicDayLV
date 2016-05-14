@@ -30,17 +30,17 @@ party cutouts, party balloons and banners, prom decor, wedding balloons" />
 
 </script>
     </asp:ContentPlaceHolder>
-    <script src="mdJavaScript.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="~\Styles\MasterPageStyle.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="~\Styles\DefaultStyle.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="~\Styles\GalleryStyle.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="~\Styles\AboutStyle.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="~\Styles\ContactStyle.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="~\Styles\ShopStyle.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="~\Styles\MailSentStyle.css"/>
+    <script src="Scripts/mdJavaScript.js" ></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="Styles\MasterPageStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="Styles\DefaultStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="Styles\GalleryStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="Styles\AboutStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="Styles\ContactStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="Styles\ShopStyle.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="Styles\MailSentStyle.css"/>
     	<script type="text/javascript">
 		<!--//--><![CDATA[//><!--
-
+    	   
     if (document.images) {
 
         img1 = new Image();
@@ -233,14 +233,14 @@ party cutouts, party balloons and banners, prom decor, wedding balloons" />
         </div>
         <div style="align-content: center">
             <div id="addsDiv">
-            <script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- themagicdayBottom -->
-<ins class="adsbygoogle" id="addsBottom"
+<ins class="adsbygoogle"
      style="display:inline-block;width:728px;height:90px"
      data-ad-client="ca-pub-2268950586961534"
      data-ad-slot="8953164402"></ins>
 <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
                 </div>
         </div>

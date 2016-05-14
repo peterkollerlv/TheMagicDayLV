@@ -49,7 +49,7 @@
 
 }
 #aboutHeader p{
-    font-family:'dancing_script_otregular';
+    font-family:'dancingOtregular';
     font-size:38px;
     color:#8f476b;
 }
@@ -68,7 +68,7 @@
 
     }
 #aboutDesc p{
-        font-family:'dancing_script_otregular';
+        font-family:'dancingOtregular';
     font-size:28px;
     color:#8f476b;  /*#AE69B2;*/
     margin:10px;

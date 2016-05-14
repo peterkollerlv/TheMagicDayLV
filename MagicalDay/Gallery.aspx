@@ -167,7 +167,7 @@
                     <li tabindex="1" onclick="skipToImage(41)">
                         <img src="lib/pic/gallery/IMG-20150107-WA0005.png" />
                     </li>
-                    <li tabindex="1" onclick="skipToImage42)">
+                    <li tabindex="1" onclick="skipToImage(42)">
                         <img src="lib/pic/gallery/IMG-20150107-WA0009.png" />
                     </li>
                     <li tabindex="1" onclick="skipToImage(43)">

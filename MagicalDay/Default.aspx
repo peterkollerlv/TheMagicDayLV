@@ -5,7 +5,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server" >
-       <div class="centerContentBody" ="defaultBody">
+       <div class="centerContentBody" id="defaultBody">
         <img id="mdLogoDefaultPage" src="lib\pic\mdLogoTransparent.png" />
         <div class="DefaultMainPicFrame">
             
