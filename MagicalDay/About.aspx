@@ -9,9 +9,9 @@
             <div id="aboutHeader">
                 <p>About The Magical Day:</p>
             </div>
-            <img id="aboutMainPic" src="lib/pic/gallery/IMG_3027.png" />
-            <img id="aboutTopPic" src="lib/pic/gallery/aboutTop.png" />
-            <img id="aboutPic" src="lib/pic/MAG0014.png" />
+            <img id="aboutMainPic" src="lib/pic/gallery/IMG_3027.jpg" />
+            <img id="aboutTopPic" src="lib/pic/gallery/aboutTop.jpg" />
+            <img id="aboutPic" src="lib/pic/MAG0014.jpg" />
             <div id="aboutDesc">
                 <p>
                     My name is Maria Gavin. <br /><br />

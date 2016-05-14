@@ -30,8 +30,8 @@
 
                 </script>
 
-                            <img id="contactMainPic" src="lib/pic/gallery/IMG_3027.png" />
-            <img id="contactTopPic" src="lib/pic/gallery/aboutTop.png" />
+                            <img id="contactMainPic" src="lib/pic/gallery/IMG_3027.jpg" />
+            <img id="contactTopPic" src="lib/pic/gallery/aboutTop.jpg" />
     <div id="contactHeader"><p>Contact Me</p></div>
                 <div id="contactInfo">
                     <p>Maria Gavin</p> <br /> <br />

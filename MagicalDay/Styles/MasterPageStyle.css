@@ -1,10 +1,7 @@
 ﻿@font-face {
     font-family: 'dancingOtregular';
-    src: url('lib/font/dancingscript-regular-webfont.eot');
-    src: url('lib/font/dancingscript-regular-webfont.eot?#iefix') format('embedded-opentype'), url('lib/font/dancingscript-regular-webfont.ttf') format('truetype'), url('lib/font/dancingscript-regular-webfont.svg#dancing_script_otregular') format('svg'), url('lib/font/dancingscript-regular-webfont.woff2') format('woff2'), url('lib/font/dancingscript-regular-webfont.woff') format('woff'), url('lib/font/dancingscript-regular-webfont.ttf') format('truetype');
-    /*src: url('lib/font/dancingscript-regular-webfont.svg#dancingOtregular');*/
-    /*url('lib/font/dancingscript-regular-webfont.woff2') format('woff2'),  url('lib/font/dancingscript-regular-webfont.woff') format('woff'), url('lib/font/dancingscript-regular-webfont.ttf') format('truetype'), url('lib/font/dancingscript-regular-webfont.svg#dancingOtregular') format('svg')*/
-    /*src: url('lib/font/dancingscript-regular-webfont.eot?#iefix'); /*format('embedded-opentype') ; }*/
+    src: url('Font/dancingscript-regular-webfont.eot');
+    src: url('Font/dancingscript-regular-webfont.eot?#iefix') format('embedded-opentype'), url('font/dancingscript-regular-webfont.ttf') format('truetype'), url('Font/dancingscript-regular-webfont.svg#dancing_script_otregular') format('svg'), url('font/dancingscript-regular-webfont.woff2') format('woff2'), url('font/dancingscript-regular-webfont.woff') format('woff'), url('Font/dancingscript-regular-webfont.ttf') format('truetype');
 }
 
 body {

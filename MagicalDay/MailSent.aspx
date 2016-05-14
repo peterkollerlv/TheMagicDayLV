@@ -6,8 +6,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <div class="centerContentBody">
-    <img id="mailSentMainPic" src="lib/pic/gallery/IMG_3036.png" />
-    <img id="mailSentSidePic" src="lib/pic/gallery/IMG-20150107-WA0001.png" />
+    <img id="mailSentMainPic" src="lib/pic/gallery/IMG_3036.jpg" />
+    <img id="mailSentSidePic" src="lib/pic/gallery/IMG-20150107-WA0001.jpg" />
     <div id="mailSentHeader">
         <p>
     Thank for sending us an email! 
