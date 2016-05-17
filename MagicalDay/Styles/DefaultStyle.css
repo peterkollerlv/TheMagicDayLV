@@ -282,3 +282,16 @@
     opacity: 0.8;
     box-shadow: 1px 1px 15px #888888;
 }
+
+/*#addsDiv {
+    background-color:azure;
+    width: 728px;
+    height: 90px;
+    position: fixed;
+    z-index: 300;
+    bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0px;
+    right: 0px;
+}*/

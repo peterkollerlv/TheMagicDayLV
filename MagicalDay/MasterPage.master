@@ -231,8 +231,8 @@ party cutouts, party balloons and banners, prom decor, wedding balloons" />
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <div style="align-content: center">
-            <div id="addsDiv">
+       
+<%--            <div id="addsDiv" >
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- themagicdayBottom -->
 <ins class="adsbygoogle"
@@ -242,8 +242,8 @@ party cutouts, party balloons and banners, prom decor, wedding balloons" />
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-                </div>
-        </div>
+                </div>--%>
+        
     </form>
 </body>
 </html>

@@ -275,9 +275,10 @@ body {
             color: #CC0066;
         }
 
-#addsBottom {
+#addsDiv {
     /*background-color:azure;*/
-    width: 1400px;
+    width: 728px;
+    height: 90px;
     position: fixed;
     z-index: 300;
     bottom: 0px;
